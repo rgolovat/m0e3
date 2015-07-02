@@ -1,3 +1,5 @@
+package m0e3;
+
 /**
  * Created by Roman on 7/1/15.
  */
@@ -23,14 +25,11 @@ public class Board {
 
     private Figure figure33 = new Figure (" ");
 
-    public static void printGameName(){
-        System.out.println(Board.GAME_NAME);
-    }
 
     public void printBoard(){
-        System.out.printf("%s|%s|%s\n", figure11.getFigure(), figure12.getFigure(),figure13.getFigure());
+        System.out.printf("%s|%s|%s\n", figure11.getFigure(), figure12.getFigure(), figure13.getFigure());
         System.out.println("-----");
-        System.out.printf("%s|%s|%s\n", figure21.getFigure(), figure22.getFigure(),figure33.getFigure());
+        System.out.printf("%s|%s|%s\n", figure21.getFigure(), figure22.getFigure(), figure23.getFigure());
         System.out.println("-----");
         System.out.printf("%s|%s|%s\n", figure31.getFigure(), figure32.getFigure(),figure33.getFigure());
 
